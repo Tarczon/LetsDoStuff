@@ -1,6 +1,6 @@
-package letsdostuff.util;
+package util;
 
-public static class StringUtils {
+public class StringUtils {
 
 	/*
 	 * Shorthand for sysout

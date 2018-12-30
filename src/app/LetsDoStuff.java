@@ -1,7 +1,4 @@
-package letsdostuff;
-
-import java.util.*
-import letsdostuff.util.*
+package app;
 
 public class LetsDoStuff {
 
@@ -13,7 +10,8 @@ public class LetsDoStuff {
 		try {
 			LetsDoStuff app = new LetsDoStuff( );
 		} catch ( Exception e ) {
-			system.out.println( "Unhandled Exception Occurred:\n" + e.printStackTrace( ) );
+			System.out.println( "Unhandled Exception Occurred:" );
+			e.printStackTrace();
 		}
 
 	}
