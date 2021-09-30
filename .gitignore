@@ -3,3 +3,4 @@ README
 .classpath
 .project
 bin/
+token.key
