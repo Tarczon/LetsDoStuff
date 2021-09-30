@@ -9,6 +9,7 @@ public class LetsDoStuff {
 	public static void main( String[] args ) {
 		try {
 			LetsDoStuff app = new LetsDoStuff( );
+			System.out.println("This is a different comment");
 		} catch ( Exception e ) {
 			System.out.println( "Unhandled Exception Occurred:" );
 			e.printStackTrace();
